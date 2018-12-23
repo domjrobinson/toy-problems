@@ -9,7 +9,7 @@ DO use a for loop.
 TRY solving it with non-mutative recursion, only after you’ve solved it using a for loop.
 */
 
-const concatArrays arrays => {
+const concatArrays = arrays => {
   let results = [];
   arrays = arrays.flat();
 
@@ -17,4 +17,4 @@ const concatArrays arrays => {
     results.push(arrays[i]);
   }
   return results;
-}
+};
