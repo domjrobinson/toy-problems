@@ -9,11 +9,11 @@ DO use a for loop.
 TRY solving it with non-mutative recursion, only after you’ve solved it using a for loop.
 */
 
-const concatStrings (strings) => {
+const concatStrings = strings => {
   let str = '';
 
   for (let i = 0; i < strings.length; i++) {
     str += strings[i];
   }
   return str;
-}
+};
