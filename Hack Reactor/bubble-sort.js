@@ -9,7 +9,7 @@
 
 //   NOTE: DO NOT use JavaScript’s built -in sorting function (Array.prototype.sort).
 
-let bubbleSort = (array, sorted = false) => {
+const bubbleSort = (array, sorted = false) => {
   while (!sorted) {
     sorted = true;
     for (let i = 0; i < array.length - 1; i++) {
